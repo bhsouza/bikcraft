@@ -1,0 +1,22 @@
+.botao {
+  display: inline-block;
+  padding: 1.6rem 3.2rem;
+  background: var(--cor-gradiente);
+  border-radius: .5rem;
+  box-shadow: 0 .1rem .2rem rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  color: var(--cor-p5);
+  transition: 0.3s;
+  font: 600 1.8rem/1.33 'Poppins', sans-serif; 
+}
+
+.botao:hover {
+  background: var(--cor-gradiente-hover);
+}
+
+@media (max-width: 600px) {
+  .botao {
+    padding: 1.2rem 1.6rem;
+    font-size: 1.6rem;
+  }
+}
