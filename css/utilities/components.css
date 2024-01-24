@@ -14,7 +14,7 @@
   box-shadow: 0 .1rem .2rem rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
   color: var(--cor-p5);
-  transition: 0.3s;
+  transition: background 0.3s;
   font: 600 1.8rem/1.33 'Poppins', sans-serif; 
 }
 
