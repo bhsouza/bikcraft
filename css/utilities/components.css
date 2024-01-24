@@ -2,7 +2,7 @@
   display: inline-block;
   padding: 1.6rem 3.2rem;
   background: var(--cor-gradiente);
-  border-radius: .5rem;
+  border-radius: .4rem;
   box-shadow: 0 .1rem .2rem rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
   color: var(--cor-p5);

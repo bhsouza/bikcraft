@@ -48,7 +48,7 @@
   .header-menu a {
     background: var(--cor-11);
     padding: 1.2rem 1.6rem;
-    border-radius: .5rem;
+    border-radius: .4rem;
     transition: 0.3s;
   }
 
