@@ -15,6 +15,10 @@
     overflow-x: auto;
 }
 
+#bicicleta .bicicletas-lista ul {
+    padding: 0 0 2rem 0;
+}
+
 .bicicletas-lista li {
     flex: 1;
     min-width: 28rem;
@@ -52,8 +56,9 @@
     padding-left: 2rem;
 }
 
-@media (max-width: 1200px) {
-    .bicicletas-lista ul {
+@media (max-width: 1300px) {
+    .bicicletas-lista ul,
+    #bicicleta .bicicletas-lista ul {
         padding: 0 2rem 2rem 2rem;
     }
 }
