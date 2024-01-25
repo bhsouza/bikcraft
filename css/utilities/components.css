@@ -29,6 +29,25 @@
   transition: 0.3s;
 }
 
+.botao.seta {
+  display: flex;
+  align-items: center;
+}
+
+.botao.seta::after {
+  content: "";
+  display: inline-block;
+  width: 1.8rem;
+  height: 1rem;
+  background: url(../../img/icones/seta.svg);
+  margin-left: 1.2rem;
+  transition: .2s;
+}
+
+.botao.seta:hover::after {
+  transform: translateX(.4rem);
+}
+
 .botao.secundario:hover {
   background: var(--cor-9);
 }
