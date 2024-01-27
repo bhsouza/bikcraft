@@ -42,3 +42,21 @@ function eventosPerguntas(pergunta) {
 }
 
 perguntas.forEach(eventosPerguntas);
+
+// Código galeria de bicicletas
+
+const galeria = document.querySelectorAll('.bicicleta-imagens img');
+const galeriaContainer = document.querySelector('.bicicleta-imagens');
+
+function trocarImagem(event) {
+  const img = event.currentTarget;
+  if (matchMedia('(min-width: 915px)').matches) {
+    galeriaContainer.prepend(img);
+  }
+}
+
+function eventosGaleria(img) {
+  img.addEventListener('click', trocarImagem);
+}
+
+galeria.forEach(eventosGaleria);
